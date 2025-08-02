@@ -31,7 +31,7 @@ x-airflow-common:
     - ${AIRFLOW_PROJ_DIR:-.}/airflow/config:/opt/airflow/config
     - ${AIRFLOW_PROJ_DIR:-.}/airflow/plugins:/opt/airflow/plugins
     - ./spark-jobs:/opt/spark-jobs
-    - chroma-data:/chroma/chroma
+    - ./chroma/chroma:/chroma/chroma
     - ./lineage:/lineage
   user: "${AIRFLOW_UID:-50000}:0"
   depends_on:
@@ -362,7 +362,7 @@ services:
     user: root   # <-- Add this line
     volumes:
       - ./spark-jobs:/opt/spark-jobs
-      - chroma-data:/chroma/chroma            # <-- mount chroma data volume here
+      - ./chroma/chroma:/chroma/chroma            # <-- mount chroma data volume here
 
     ports:
       - "8082:8080"
@@ -382,7 +382,7 @@ services:
     user: root   # <-- Add this line
     volumes:
       - ./spark-jobs:/opt/spark-jobs
-      - chroma-data:/chroma/chroma            # <-- also mount here
+      - ./chroma/chroma:/chroma/chroma          # <-- also mount here
     networks:
       - activefence-network
 
@@ -423,7 +423,7 @@ services:
     ports:
       - "8000:8000"
     volumes:
-      - chroma-data:/chroma/chroma
+      - ./chroma/chroma:/chroma/chroma
     environment:
       - IS_PERSISTENT=TRUE
       - ANONYMIZED_TELEMETRY=FALSE
@@ -472,7 +472,7 @@ volumes:
   chroma-data:
   ollama-data:
   spark-jobs:
-  
+
 
 networks:
   activefence-network:

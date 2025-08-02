@@ -5,6 +5,7 @@ delta-spark==3.2.0
 # Airflow hooks/operators for Spark & Lineage
 apache-airflow-providers-apache-spark
 apache-airflow-providers-openlineage
+openlineage-python
 
 # AWS/S3 (boto3 for AWS, minio for MinIO; s3fs for pandas)
 boto3
