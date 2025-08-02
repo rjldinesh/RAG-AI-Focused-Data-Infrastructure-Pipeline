@@ -1,0 +1,30 @@
+{"timestamp":"2025-07-13T02:09:08.579285","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-13T02:09:08.579869","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/main.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-13T02:09:08.974009Z","level":"error","event":"/home/airflow/.local/lib/python3.12/site-packages/pyspark/bin/load-spark-env.sh: line 68: ps: command not found","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-13T02:09:10.683995Z","level":"info","event":":: loading settings :: url = jar:file:/home/airflow/.local/lib/python3.12/site-packages/pyspark/jars/ivy-2.5.1.jar!/org/apache/ivy/core/settings/ivysettings.xml","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T02:09:10.762566Z","level":"error","event":"Ivy Default Cache set to: /home/airflow/.ivy2/cache","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-13T02:09:10.763271Z","level":"error","event":"The jars for the packages stored in: /home/airflow/.ivy2/jars","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-13T02:09:10.768749Z","level":"error","event":"io.delta#delta-spark_2.12 added as a dependency","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-13T02:09:10.769897Z","level":"error","event":":: resolving dependencies :: org.apache.spark#spark-submit-parent-f9f1bc4b-68d4-4276-a298-f4a47f29827b;1.0","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-13T02:09:10.770398Z","level":"error","event":"\tconfs: [default]","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-13T02:09:10.898007Z","level":"error","event":"\tfound io.delta#delta-spark_2.12;3.2.0 in central","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-13T02:09:10.932745Z","level":"error","event":"\tfound io.delta#delta-storage;3.2.0 in central","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-13T02:09:10.954940Z","level":"error","event":"\tfound org.antlr#antlr4-runtime;4.9.3 in central","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-13T02:09:10.972529Z","level":"error","event":":: resolution report :: resolve 196ms :: artifacts dl 7ms","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-13T02:09:10.973189Z","level":"error","event":"\t:: modules in use:","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-13T02:09:10.973794Z","level":"error","event":"\tio.delta#delta-spark_2.12;3.2.0 from central in [default]","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-13T02:09:10.974314Z","level":"error","event":"\tio.delta#delta-storage;3.2.0 from central in [default]","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-13T02:09:10.974778Z","level":"error","event":"\torg.antlr#antlr4-runtime;4.9.3 from central in [default]","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-13T02:09:10.975288Z","level":"error","event":"\t---------------------------------------------------------------------","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-13T02:09:10.975772Z","level":"error","event":"\t|                  |            modules            ||   artifacts   |","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-13T02:09:10.976253Z","level":"error","event":"\t|       conf       | number| search|dwnlded|evicted|| number|dwnlded|","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-13T02:09:10.976798Z","level":"error","event":"\t---------------------------------------------------------------------","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-13T02:09:10.977309Z","level":"error","event":"\t|      default     |   3   |   0   |   0   |   0   ||   3   |   0   |","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-13T02:09:10.977734Z","level":"error","event":"\t---------------------------------------------------------------------","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-13T02:09:10.978287Z","level":"error","event":":: retrieving :: org.apache.spark#spark-submit-parent-f9f1bc4b-68d4-4276-a298-f4a47f29827b","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-13T02:09:10.978680Z","level":"error","event":"\tconfs: [default]","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-13T02:09:10.981075Z","level":"error","event":"\t0 artifacts copied, 3 already retrieved (0kB/5ms)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-13T02:09:11.178740Z","level":"error","event":"25/07/13 02:09:11 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-13T02:09:11.356382Z","level":"error","event":"Setting default log level to \"WARN\".","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-13T02:09:11.357038Z","level":"error","event":"To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-13T02:09:13.360148","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

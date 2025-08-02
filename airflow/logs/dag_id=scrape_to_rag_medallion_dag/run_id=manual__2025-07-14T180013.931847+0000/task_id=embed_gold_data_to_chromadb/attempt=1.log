@@ -1,0 +1,60 @@
+{"timestamp":"2025-07-14T18:00:15.042136","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-14T18:00:15.042761","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/activefence.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T18:00:23.942294Z","level":"error","event":"/home/airflow/.local/lib/python3.12/site-packages/pyspark/bin/load-spark-env.sh: line 68: ps: command not found","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T18:00:27.426264Z","level":"info","event":":: loading settings :: url = jar:file:/home/airflow/.local/lib/python3.12/site-packages/pyspark/jars/ivy-2.5.1.jar!/org/apache/ivy/core/settings/ivysettings.xml","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T18:00:27.587203Z","level":"error","event":"Ivy Default Cache set to: /home/airflow/.ivy2/cache","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T18:00:27.589439Z","level":"error","event":"The jars for the packages stored in: /home/airflow/.ivy2/jars","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T18:00:27.599068Z","level":"error","event":"org.apache.hadoop#hadoop-aws added as a dependency","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T18:00:27.600190Z","level":"error","event":"com.amazonaws#aws-java-sdk-bundle added as a dependency","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T18:00:27.600929Z","level":"error","event":"org.apache.spark#spark-avro_2.12 added as a dependency","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T18:00:27.601513Z","level":"error","event":"io.delta#delta-spark_2.12 added as a dependency","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T18:00:27.602240Z","level":"error","event":":: resolving dependencies :: org.apache.spark#spark-submit-parent-393de73b-7a5e-4eaf-911f-dccb13465278;1.0","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T18:00:27.602697Z","level":"error","event":"\tconfs: [default]","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T18:00:27.908599Z","level":"error","event":"\tfound org.apache.hadoop#hadoop-aws;3.3.4 in central","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T18:00:27.960359Z","level":"error","event":"\tfound org.wildfly.openssl#wildfly-openssl;1.0.7.Final in central","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T18:00:27.985088Z","level":"error","event":"\tfound com.amazonaws#aws-java-sdk-bundle;1.12.520 in central","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T18:00:28.028294Z","level":"error","event":"\tfound org.apache.spark#spark-avro_2.12;3.5.0 in central","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T18:00:28.065688Z","level":"error","event":"\tfound org.tukaani#xz;1.9 in central","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T18:00:28.105378Z","level":"error","event":"\tfound io.delta#delta-spark_2.12;3.1.0 in central","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T18:00:28.157117Z","level":"error","event":"\tfound io.delta#delta-storage;3.1.0 in central","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T18:00:28.186534Z","level":"error","event":"\tfound org.antlr#antlr4-runtime;4.9.3 in central","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T18:00:29.458255Z","level":"error","event":"downloading https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-bundle/1.12.520/aws-java-sdk-bundle-1.12.520.jar ...","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T18:00:39.497287Z","level":"error","event":"Server indicated the task shouldn't be running anymore. Terminating process","detail":{"detail":{"reason":"not_running","message":"TI is no longer in the running state and task should terminate","current_state":"success"}},"logger":"task"}
+{"timestamp":"2025-07-14T18:00:39.559982Z","level":"error","event":"Task killed!","logger":"task"}
+{"timestamp":"2025-07-14T18:00:52.309341Z","level":"error","event":"\t[SUCCESSFUL ] com.amazonaws#aws-java-sdk-bundle;1.12.520!aws-java-sdk-bundle.jar (24086ms)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T18:00:52.484472Z","level":"error","event":"downloading https://repo1.maven.org/maven2/org/apache/spark/spark-avro_2.12/3.5.0/spark-avro_2.12-3.5.0.jar ...","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T18:00:52.667709Z","level":"error","event":"\t[SUCCESSFUL ] org.apache.spark#spark-avro_2.12;3.5.0!spark-avro_2.12.jar (356ms)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T18:00:52.849944Z","level":"error","event":"downloading https://repo1.maven.org/maven2/io/delta/delta-spark_2.12/3.1.0/delta-spark_2.12-3.1.0.jar ...","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T18:00:53.440033Z","level":"error","event":"\t[SUCCESSFUL ] io.delta#delta-spark_2.12;3.1.0!delta-spark_2.12.jar (760ms)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T18:00:53.611934Z","level":"error","event":"downloading https://repo1.maven.org/maven2/org/wildfly/openssl/wildfly-openssl/1.0.7.Final/wildfly-openssl-1.0.7.Final.jar ...","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T18:00:53.814481Z","level":"error","event":"\t[SUCCESSFUL ] org.wildfly.openssl#wildfly-openssl;1.0.7.Final!wildfly-openssl.jar (371ms)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T18:00:53.988673Z","level":"error","event":"downloading https://repo1.maven.org/maven2/org/tukaani/xz/1.9/xz-1.9.jar ...","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T18:00:54.167197Z","level":"error","event":"\t[SUCCESSFUL ] org.tukaani#xz;1.9!xz.jar (349ms)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T18:00:54.339158Z","level":"error","event":"downloading https://repo1.maven.org/maven2/io/delta/delta-storage/3.1.0/delta-storage-3.1.0.jar ...","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T18:00:54.514467Z","level":"error","event":"\t[SUCCESSFUL ] io.delta#delta-storage;3.1.0!delta-storage.jar (345ms)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T18:00:54.689602Z","level":"error","event":"downloading https://repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.9.3/antlr4-runtime-4.9.3.jar ...","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T18:00:54.880833Z","level":"error","event":"\t[SUCCESSFUL ] org.antlr#antlr4-runtime;4.9.3!antlr4-runtime.jar (362ms)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T18:00:54.881651Z","level":"error","event":":: resolution report :: resolve 612ms :: artifacts dl 26668ms","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T18:00:54.882291Z","level":"error","event":"\t:: modules in use:","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T18:00:54.882810Z","level":"error","event":"\tcom.amazonaws#aws-java-sdk-bundle;1.12.520 from central in [default]","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T18:00:54.883293Z","level":"error","event":"\tio.delta#delta-spark_2.12;3.1.0 from central in [default]","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T18:00:54.883657Z","level":"error","event":"\tio.delta#delta-storage;3.1.0 from central in [default]","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T18:00:54.884009Z","level":"error","event":"\torg.antlr#antlr4-runtime;4.9.3 from central in [default]","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T18:00:54.884416Z","level":"error","event":"\torg.apache.hadoop#hadoop-aws;3.3.4 from central in [default]","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T18:00:54.884815Z","level":"error","event":"\torg.apache.spark#spark-avro_2.12;3.5.0 from central in [default]","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T18:00:54.885214Z","level":"error","event":"\torg.tukaani#xz;1.9 from central in [default]","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T18:00:54.885779Z","level":"error","event":"\torg.wildfly.openssl#wildfly-openssl;1.0.7.Final from central in [default]","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T18:00:54.886467Z","level":"error","event":"\t:: evicted modules:","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T18:00:54.887046Z","level":"error","event":"\tcom.amazonaws#aws-java-sdk-bundle;1.12.262 by [com.amazonaws#aws-java-sdk-bundle;1.12.520] in [default]","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T18:00:54.887437Z","level":"error","event":"\t---------------------------------------------------------------------","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T18:00:54.887854Z","level":"error","event":"\t|                  |            modules            ||   artifacts   |","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T18:00:54.888268Z","level":"error","event":"\t|       conf       | number| search|dwnlded|evicted|| number|dwnlded|","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T18:00:54.888643Z","level":"error","event":"\t---------------------------------------------------------------------","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T18:00:54.888969Z","level":"error","event":"\t|      default     |   9   |   0   |   0   |   1   ||   8   |   7   |","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T18:00:54.889365Z","level":"error","event":"\t---------------------------------------------------------------------","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T18:00:54.894518Z","level":"error","event":":: retrieving :: org.apache.spark#spark-submit-parent-393de73b-7a5e-4eaf-911f-dccb13465278","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T18:00:54.895384Z","level":"error","event":"\tconfs: [default]","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T18:00:55.976702Z","level":"error","event":"\t8 artifacts copied, 0 already retrieved (337604kB/1081ms)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T18:00:56.370984Z","level":"error","event":"25/07/14 18:00:56 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T18:00:56.763693Z","level":"error","event":"Setting default log level to \"WARN\".","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T18:00:56.764489Z","level":"error","event":"To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).","chan":"stderr","logger":"task"}

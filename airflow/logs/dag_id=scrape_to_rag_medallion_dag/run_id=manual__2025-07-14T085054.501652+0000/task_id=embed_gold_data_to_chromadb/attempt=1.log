@@ -1,0 +1,37 @@
+{"timestamp":"2025-07-14T08:50:56.611481","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-14T08:50:56.616595","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/activefence.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T08:51:07.450257Z","level":"error","event":"/home/airflow/.local/lib/python3.12/site-packages/pyspark/bin/load-spark-env.sh: line 68: ps: command not found","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T08:51:12.315083Z","level":"error","event":"Setting default log level to \"WARN\".","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T08:51:12.336021Z","level":"error","event":"To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T08:51:12.627362Z","level":"error","event":"25/07/14 08:51:12 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T08:51:14.990597Z","level":"error","event":"25/07/14 08:51:14 WARN SparkSession: Cannot use io.delta.sql.DeltaSparkSessionExtension to configure session extensions.","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T08:51:14.991462Z","level":"error","event":"java.lang.ClassNotFoundException: io.delta.sql.DeltaSparkSessionExtension","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T08:51:14.992031Z","level":"error","event":"\tat java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:445)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T08:51:14.992468Z","level":"error","event":"\tat java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:592)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T08:51:14.992977Z","level":"error","event":"\tat java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T08:51:14.993601Z","level":"error","event":"\tat java.base/java.lang.Class.forName0(Native Method)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T08:51:14.994229Z","level":"error","event":"\tat java.base/java.lang.Class.forName(Class.java:467)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T08:51:14.994886Z","level":"error","event":"\tat org.apache.spark.util.SparkClassUtils.classForName(SparkClassUtils.scala:41)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T08:51:14.995457Z","level":"error","event":"\tat org.apache.spark.util.SparkClassUtils.classForName$(SparkClassUtils.scala:36)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T08:51:14.996016Z","level":"error","event":"\tat org.apache.spark.util.Utils$.classForName(Utils.scala:94)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T08:51:14.996526Z","level":"error","event":"\tat org.apache.spark.sql.SparkSession$.$anonfun$applyExtensions$2(SparkSession.scala:1367)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T08:51:14.997127Z","level":"error","event":"\tat org.apache.spark.sql.SparkSession$.$anonfun$applyExtensions$2$adapted(SparkSession.scala:1365)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T08:51:14.997550Z","level":"error","event":"\tat scala.collection.mutable.ResizableArray.foreach(ResizableArray.scala:62)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T08:51:14.998088Z","level":"error","event":"\tat scala.collection.mutable.ResizableArray.foreach$(ResizableArray.scala:55)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T08:51:14.998540Z","level":"error","event":"\tat scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:49)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T08:51:14.998971Z","level":"error","event":"\tat org.apache.spark.sql.SparkSession$.org$apache$spark$sql$SparkSession$$applyExtensions(SparkSession.scala:1365)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T08:51:14.999371Z","level":"error","event":"\tat org.apache.spark.sql.SparkSession.<init>(SparkSession.scala:105)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T08:51:14.999863Z","level":"error","event":"\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T08:51:15.000260Z","level":"error","event":"\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T08:51:15.000585Z","level":"error","event":"\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T08:51:15.000927Z","level":"error","event":"\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T08:51:15.001355Z","level":"error","event":"\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T08:51:15.001724Z","level":"error","event":"\tat py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:247)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T08:51:15.002082Z","level":"error","event":"\tat py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T08:51:15.002408Z","level":"error","event":"\tat py4j.Gateway.invoke(Gateway.java:238)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T08:51:15.002862Z","level":"error","event":"\tat py4j.commands.ConstructorCommand.invokeConstructor(ConstructorCommand.java:80)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T08:51:15.003325Z","level":"error","event":"\tat py4j.commands.ConstructorCommand.execute(ConstructorCommand.java:69)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T08:51:15.003658Z","level":"error","event":"\tat py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T08:51:15.004074Z","level":"error","event":"\tat py4j.ClientServerConnection.run(ClientServerConnection.java:106)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T08:51:15.004528Z","level":"error","event":"\tat java.base/java.lang.Thread.run(Thread.java:840)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T08:51:14.997650","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

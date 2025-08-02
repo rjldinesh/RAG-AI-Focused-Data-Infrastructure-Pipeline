@@ -1,0 +1,36 @@
+{"timestamp":"2025-07-13T02:31:50.705841","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-13T02:31:50.707275","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/main.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-13T02:31:51.160567Z","level":"error","event":"/home/airflow/.local/lib/python3.12/site-packages/pyspark/bin/load-spark-env.sh: line 68: ps: command not found","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-13T02:31:53.402907Z","level":"info","event":":: loading settings :: url = jar:file:/home/airflow/.local/lib/python3.12/site-packages/pyspark/jars/ivy-2.5.1.jar!/org/apache/ivy/core/settings/ivysettings.xml","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-13T02:31:53.503114Z","level":"error","event":"Ivy Default Cache set to: /home/airflow/.ivy2/cache","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-13T02:31:53.503849Z","level":"error","event":"The jars for the packages stored in: /home/airflow/.ivy2/jars","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-13T02:31:53.508341Z","level":"error","event":"io.delta#delta-spark_2.12 added as a dependency","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-13T02:31:53.509168Z","level":"error","event":":: resolving dependencies :: org.apache.spark#spark-submit-parent-5f5f7d49-01d4-4f20-b4d9-794998e17da9;1.0","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-13T02:31:53.509606Z","level":"error","event":"\tconfs: [default]","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-13T02:31:55.393262Z","level":"error","event":"\tfound io.delta#delta-spark_2.12;3.2.0 in central","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-13T02:31:55.837628Z","level":"error","event":"\tfound io.delta#delta-storage;3.2.0 in central","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-13T02:31:59.613817Z","level":"error","event":"\tfound org.antlr#antlr4-runtime;4.9.3 in central","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-13T02:31:59.909397Z","level":"error","event":"downloading https://repo1.maven.org/maven2/io/delta/delta-spark_2.12/3.2.0/delta-spark_2.12-3.2.0.jar ...","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-13T02:32:01.616953Z","level":"error","event":"\t[SUCCESSFUL ] io.delta#delta-spark_2.12;3.2.0!delta-spark_2.12.jar (1991ms)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-13T02:32:01.853596Z","level":"error","event":"downloading https://repo1.maven.org/maven2/io/delta/delta-storage/3.2.0/delta-storage-3.2.0.jar ...","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-13T02:32:02.061813Z","level":"error","event":"\t[SUCCESSFUL ] io.delta#delta-storage;3.2.0!delta-storage.jar (443ms)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-13T02:32:02.264598Z","level":"error","event":"downloading https://repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.9.3/antlr4-runtime-4.9.3.jar ...","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-13T02:32:05.540289Z","level":"error","event":"\t[SUCCESSFUL ] org.antlr#antlr4-runtime;4.9.3!antlr4-runtime.jar (3476ms)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-13T02:32:05.544345Z","level":"error","event":":: resolution report :: resolve 6116ms :: artifacts dl 5916ms","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-13T02:32:05.547201Z","level":"error","event":"\t:: modules in use:","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-13T02:32:05.549868Z","level":"error","event":"\tio.delta#delta-spark_2.12;3.2.0 from central in [default]","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-13T02:32:05.550789Z","level":"error","event":"\tio.delta#delta-storage;3.2.0 from central in [default]","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-13T02:32:05.551328Z","level":"error","event":"\torg.antlr#antlr4-runtime;4.9.3 from central in [default]","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-13T02:32:05.551786Z","level":"error","event":"\t---------------------------------------------------------------------","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-13T02:32:05.552267Z","level":"error","event":"\t|                  |            modules            ||   artifacts   |","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-13T02:32:05.552770Z","level":"error","event":"\t|       conf       | number| search|dwnlded|evicted|| number|dwnlded|","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-13T02:32:05.553219Z","level":"error","event":"\t---------------------------------------------------------------------","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-13T02:32:05.553625Z","level":"error","event":"\t|      default     |   3   |   3   |   3   |   0   ||   3   |   3   |","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-13T02:32:05.554130Z","level":"error","event":"\t---------------------------------------------------------------------","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-13T02:32:05.554624Z","level":"error","event":":: retrieving :: org.apache.spark#spark-submit-parent-5f5f7d49-01d4-4f20-b4d9-794998e17da9","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-13T02:32:05.554957Z","level":"error","event":"\tconfs: [default]","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-13T02:32:05.566426Z","level":"error","event":"\t3 artifacts copied, 0 already retrieved (6321kB/17ms)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-13T02:32:05.847655Z","level":"error","event":"25/07/13 02:32:05 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-13T02:32:06.102051Z","level":"error","event":"Setting default log level to \"WARN\".","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-13T02:32:06.103044Z","level":"error","event":"To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-13T02:32:08.382397","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

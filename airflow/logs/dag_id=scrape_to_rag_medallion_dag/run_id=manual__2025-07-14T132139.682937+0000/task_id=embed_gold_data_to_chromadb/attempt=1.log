@@ -1,0 +1,58 @@
+{"timestamp":"2025-07-14T13:34:25.316336","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-14T13:34:25.319785","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/activefence.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-14T13:34:35.128149Z","level":"error","event":"/home/airflow/.local/lib/python3.12/site-packages/pyspark/bin/load-spark-env.sh: line 68: ps: command not found","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T13:34:37.322718Z","level":"info","event":":: loading settings :: url = jar:file:/home/airflow/.local/lib/python3.12/site-packages/pyspark/jars/ivy-2.5.1.jar!/org/apache/ivy/core/settings/ivysettings.xml","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T13:34:37.408603Z","level":"error","event":"Ivy Default Cache set to: /home/airflow/.ivy2/cache","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T13:34:37.409175Z","level":"error","event":"The jars for the packages stored in: /home/airflow/.ivy2/jars","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T13:34:37.412411Z","level":"error","event":"org.apache.hadoop#hadoop-aws added as a dependency","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T13:34:37.412872Z","level":"error","event":"com.amazonaws#aws-java-sdk-bundle added as a dependency","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T13:34:37.413226Z","level":"error","event":"org.apache.spark#spark-avro_2.12 added as a dependency","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T13:34:37.413508Z","level":"error","event":"io.delta#delta-spark_2.12 added as a dependency","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T13:34:37.413848Z","level":"error","event":":: resolving dependencies :: org.apache.spark#spark-submit-parent-0018895e-43f8-4f58-a739-829f84e62eeb;1.0","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T13:34:37.414155Z","level":"error","event":"\tconfs: [default]","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T13:34:37.600599Z","level":"error","event":"\tfound org.apache.hadoop#hadoop-aws;3.3.4 in central","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T13:34:37.642600Z","level":"error","event":"\tfound org.wildfly.openssl#wildfly-openssl;1.0.7.Final in central","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T13:34:37.662687Z","level":"error","event":"\tfound com.amazonaws#aws-java-sdk-bundle;1.12.520 in central","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T13:34:37.696561Z","level":"error","event":"\tfound org.apache.spark#spark-avro_2.12;3.5.0 in central","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T13:34:37.716416Z","level":"error","event":"\tfound org.tukaani#xz;1.9 in central","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T13:34:37.732168Z","level":"error","event":"\tfound io.delta#delta-spark_2.12;3.1.0 in central","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T13:34:37.750037Z","level":"error","event":"\tfound io.delta#delta-storage;3.1.0 in central","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T13:34:37.765773Z","level":"error","event":"\tfound org.antlr#antlr4-runtime;4.9.3 in central","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T13:34:37.794645Z","level":"error","event":":: resolution report :: resolve 368ms :: artifacts dl 13ms","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T13:34:37.795463Z","level":"error","event":"\t:: modules in use:","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T13:34:37.796001Z","level":"error","event":"\tcom.amazonaws#aws-java-sdk-bundle;1.12.520 from central in [default]","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T13:34:37.796480Z","level":"error","event":"\tio.delta#delta-spark_2.12;3.1.0 from central in [default]","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T13:34:37.796941Z","level":"error","event":"\tio.delta#delta-storage;3.1.0 from central in [default]","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T13:34:37.797356Z","level":"error","event":"\torg.antlr#antlr4-runtime;4.9.3 from central in [default]","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T13:34:37.797723Z","level":"error","event":"\torg.apache.hadoop#hadoop-aws;3.3.4 from central in [default]","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T13:34:37.798146Z","level":"error","event":"\torg.apache.spark#spark-avro_2.12;3.5.0 from central in [default]","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T13:34:37.798547Z","level":"error","event":"\torg.tukaani#xz;1.9 from central in [default]","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T13:34:37.798961Z","level":"error","event":"\torg.wildfly.openssl#wildfly-openssl;1.0.7.Final from central in [default]","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T13:34:37.799383Z","level":"error","event":"\t:: evicted modules:","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T13:34:37.799895Z","level":"error","event":"\tcom.amazonaws#aws-java-sdk-bundle;1.12.262 by [com.amazonaws#aws-java-sdk-bundle;1.12.520] in [default]","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T13:34:37.800523Z","level":"error","event":"\t---------------------------------------------------------------------","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T13:34:37.800901Z","level":"error","event":"\t|                  |            modules            ||   artifacts   |","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T13:34:37.801328Z","level":"error","event":"\t|       conf       | number| search|dwnlded|evicted|| number|dwnlded|","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T13:34:37.801748Z","level":"error","event":"\t---------------------------------------------------------------------","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T13:34:37.802232Z","level":"error","event":"\t|      default     |   9   |   0   |   0   |   1   ||   8   |   0   |","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T13:34:37.802737Z","level":"error","event":"\t---------------------------------------------------------------------","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T13:34:37.803621Z","level":"error","event":":: retrieving :: org.apache.spark#spark-submit-parent-0018895e-43f8-4f58-a739-829f84e62eeb","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T13:34:37.804201Z","level":"error","event":"\tconfs: [default]","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T13:34:37.815816Z","level":"error","event":"\t0 artifacts copied, 8 already retrieved (0kB/12ms)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T13:34:38.096309Z","level":"error","event":"25/07/14 13:34:38 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T13:34:38.360388Z","level":"error","event":"Setting default log level to \"WARN\".","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T13:34:38.361462Z","level":"error","event":"To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T13:34:41.301019","level":"info","event":"Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.","logger":"chromadb.telemetry.product.posthog"}
+{"timestamp":"2025-07-14T13:34:43.269007Z","level":"error","event":"25/07/14 13:34:43 WARN MetricsConfig: Cannot locate configuration: tried hadoop-metrics2-s3a-file-system.properties,hadoop-metrics2.properties","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T13:34:50.806994Z","level":"info","event":"root","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T13:34:50.807737Z","level":"info","event":" |-- article_id: string (nullable = true)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T13:34:50.808289Z","level":"info","event":" |-- title: string (nullable = true)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T13:34:50.808740Z","level":"info","event":" |-- pub_date: date (nullable = true)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T13:34:50.809232Z","level":"info","event":" |-- summary: string (nullable = true)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T13:34:50.809595Z","level":"info","event":" |-- load_timestamp: timestamp_ntz (nullable = true)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T13:34:50.809995Z","level":"info","event":" |-- year_month: string (nullable = true)","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T13:34:50.810583Z","level":"info","event":"","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-14T13:34:51.512659Z","level":"error","event":"\r[Stage 0:>                                                          (0 + 1) / 1]\r\r                                                                                \r25/07/14 13:34:51 WARN SparkStringUtils: Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.sql.debug.maxToStringFields'.","chan":"stderr","logger":"task"}
+{"timestamp":"2025-07-14T13:35:01.254837","level":"info","event":"Embedded 55 records","logger":"unusual_prefix_0aab8e1abe4a8f324d874f9a30de87ad63865522_activefence"}
+{"timestamp":"2025-07-14T13:35:01.255299","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-07-14T13:35:02.165868Z","level":"error","event":"\r[Stage 1:>                                                          (0 + 1) / 1]\r\r[Stage 3:>                                                         (0 + 2) / 50]\r\r[Stage 3:==>                                                       (2 + 2) / 50]\r\r[Stage 3:======>                                                   (6 + 2) / 50]\r\r[Stage 3:===========>                                             (10 + 2) / 50]\r\r[Stage 3:===============>                                         (14 + 2) / 50]\r\r[Stage 3:====================>                                    (18 + 2) / 50]\r\r[Stage 3:=========================>                               (22 + 2) / 50]\r\r[Stage 3:=============================>                           (26 + 2) / 50]\r\r[Stage 3:==================================>                      (30 + 2) / 50]\r\r[Stage 3:=======================================>                 (35 + 2) / 50]\r\r[Stage 3:=============================================>           (40 + 2) / 50]\r\r[Stage 3:==================================================>      (44 + 2) / 50]\r\r[Stage 3:======================================================>  (48 + 2) / 50]\r\r                                                                                \r\r[Stage 8:==================================================>      (44 + 2) / 50]\r\r                                                                                \r\r[Stage 9:>                                                          (0 + 1) / 1]","chan":"stderr","logger":"task"}

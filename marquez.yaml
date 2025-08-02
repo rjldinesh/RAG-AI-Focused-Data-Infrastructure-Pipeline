@@ -1,0 +1,13 @@
+db:
+  url: jdbc:postgresql://postgres:5432/airflow
+  user: airflow
+  password: airflow
+  driverClass: org.postgresql.Driver
+
+server:
+  applicationConnectors:
+    - type: http
+      port: 5000
+  adminConnectors:
+    - type: http
+      port: 5050

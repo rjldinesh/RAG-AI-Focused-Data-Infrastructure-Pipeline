@@ -1,0 +1,5 @@
+{"timestamp":"2025-07-30T12:15:45.421774","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-30T12:15:45.422019","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/activefence.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-30T12:15:49.871880","level":"info","event":"Columns :      article_id  ... year_month\n0  cql0ple066po  ...    2025-07\n1  c4g8r34nxeno  ...    2025-07\n2  cy8g22n32d0o  ...    2025-07\n3  cp8mp79gyz1o  ...    2025-07\n4  cp82447l84ko  ...    2025-07\n\n[5 rows x 6 columns]","logger":"unusual_prefix_0aab8e1abe4a8f324d874f9a30de87ad63865522_activefence"}
+{"timestamp":"2025-07-30T12:15:49.928528","level":"info","event":"Bronze layer processing complete","logger":"unusual_prefix_0aab8e1abe4a8f324d874f9a30de87ad63865522_activefence"}
+{"timestamp":"2025-07-30T12:15:49.929429","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

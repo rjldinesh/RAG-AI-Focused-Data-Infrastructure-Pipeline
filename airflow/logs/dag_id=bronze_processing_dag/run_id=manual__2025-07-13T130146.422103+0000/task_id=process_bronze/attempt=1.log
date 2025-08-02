@@ -1,0 +1,6 @@
+{"timestamp":"2025-07-13T13:01:47.542780","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-13T13:01:47.543519","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/activefence.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-13T13:01:48.656458","level":"info","event":"MinIO bucket activefence-bucket and prefix bbc_tech/land/ are accessible and writable","logger":"unusual_prefix_0aab8e1abe4a8f324d874f9a30de87ad63865522_activefence"}
+{"timestamp":"2025-07-13T13:01:51.282921","level":"info","event":"Columns : Index(['article_id', 'title', 'pub_date', 'summary', 'load_timestamp'], dtype='object')","logger":"unusual_prefix_0aab8e1abe4a8f324d874f9a30de87ad63865522_activefence"}
+{"timestamp":"2025-07-13T13:01:51.283076","level":"info","event":"Bronze layer processing complete","logger":"unusual_prefix_0aab8e1abe4a8f324d874f9a30de87ad63865522_activefence"}
+{"timestamp":"2025-07-13T13:01:51.284042","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

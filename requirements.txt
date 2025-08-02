@@ -1,0 +1,35 @@
+# Spark + Delta support
+pyspark==3.5.3
+delta-spark==3.2.0
+
+# Airflow hooks/operators for Spark & Lineage
+apache-airflow-providers-apache-spark
+apache-airflow-providers-openlineage
+
+# AWS/S3 (boto3 for AWS, minio for MinIO; s3fs for pandas)
+boto3
+minio
+s3fs
+
+# Web scraping
+requests
+feedparser==6.0.11
+sgmllib3k==1.0.0
+beautifulsoup4
+
+# Data processing
+pandas
+pyarrow
+duckdb
+
+# Vector database
+chromadb
+
+# API server
+fastapi
+
+pydantic~=2.11.7
+
+#test
+pytest
+pytest-mock
