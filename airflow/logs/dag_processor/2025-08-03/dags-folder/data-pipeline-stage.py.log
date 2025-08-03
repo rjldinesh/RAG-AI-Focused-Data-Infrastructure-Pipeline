@@ -241,3 +241,66 @@
 {"timestamp":"2025-08-03T04:51:54.387161","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/data-pipeline-stage.py","logger":"airflow.models.dagbag.DagBag"}
 {"timestamp":"2025-08-03T04:51:54.784077","level":"warning","event":"Couldn't find any OpenLineage transport configuration; will print events to console.","logger":"openlineage.client.client"}
 {"timestamp":"2025-08-03T04:51:54.784428","level":"info","event":"OpenLineageClient will use `console` transport","logger":"openlineage.client.client"}
+{"timestamp":"2025-08-03T04:52:25.163454","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/data-pipeline-stage.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-03T04:52:25.569929","level":"warning","event":"Couldn't find any OpenLineage transport configuration; will print events to console.","logger":"openlineage.client.client"}
+{"timestamp":"2025-08-03T04:52:25.570244","level":"info","event":"OpenLineageClient will use `console` transport","logger":"openlineage.client.client"}
+{"timestamp":"2025-08-03T04:52:55.921353","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/data-pipeline-stage.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-03T04:52:56.354757","level":"warning","event":"Couldn't find any OpenLineage transport configuration; will print events to console.","logger":"openlineage.client.client"}
+{"timestamp":"2025-08-03T04:52:56.355451","level":"info","event":"OpenLineageClient will use `console` transport","logger":"openlineage.client.client"}
+{"timestamp":"2025-08-03T04:53:26.750292","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/data-pipeline-stage.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-03T04:53:27.151561","level":"warning","event":"Couldn't find any OpenLineage transport configuration; will print events to console.","logger":"openlineage.client.client"}
+{"timestamp":"2025-08-03T04:53:27.151877","level":"info","event":"OpenLineageClient will use `console` transport","logger":"openlineage.client.client"}
+{"timestamp":"2025-08-03T04:53:57.494032","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/data-pipeline-stage.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-03T04:53:57.908579","level":"warning","event":"Couldn't find any OpenLineage transport configuration; will print events to console.","logger":"openlineage.client.client"}
+{"timestamp":"2025-08-03T04:53:57.908898","level":"info","event":"OpenLineageClient will use `console` transport","logger":"openlineage.client.client"}
+{"timestamp":"2025-08-03T04:54:28.271211","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/data-pipeline-stage.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-03T04:54:28.682509","level":"warning","event":"Couldn't find any OpenLineage transport configuration; will print events to console.","logger":"openlineage.client.client"}
+{"timestamp":"2025-08-03T04:54:28.682798","level":"info","event":"OpenLineageClient will use `console` transport","logger":"openlineage.client.client"}
+{"timestamp":"2025-08-03T04:54:59.112782","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/data-pipeline-stage.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-03T04:54:59.548258","level":"warning","event":"Couldn't find any OpenLineage transport configuration; will print events to console.","logger":"openlineage.client.client"}
+{"timestamp":"2025-08-03T04:54:59.548595","level":"info","event":"OpenLineageClient will use `console` transport","logger":"openlineage.client.client"}
+{"timestamp":"2025-08-03T04:55:29.912538","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/data-pipeline-stage.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-03T04:55:30.466339","level":"warning","event":"Couldn't find any OpenLineage transport configuration; will print events to console.","logger":"openlineage.client.client"}
+{"timestamp":"2025-08-03T04:55:30.466644","level":"info","event":"OpenLineageClient will use `console` transport","logger":"openlineage.client.client"}
+{"timestamp":"2025-08-03T04:56:00.838933","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/data-pipeline-stage.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-03T04:56:01.284129","level":"warning","event":"Couldn't find any OpenLineage transport configuration; will print events to console.","logger":"openlineage.client.client"}
+{"timestamp":"2025-08-03T04:56:01.284503","level":"info","event":"OpenLineageClient will use `console` transport","logger":"openlineage.client.client"}
+{"timestamp":"2025-08-03T04:56:31.679002","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/data-pipeline-stage.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-03T04:56:32.080564","level":"warning","event":"Couldn't find any OpenLineage transport configuration; will print events to console.","logger":"openlineage.client.client"}
+{"timestamp":"2025-08-03T04:56:32.080881","level":"info","event":"OpenLineageClient will use `console` transport","logger":"openlineage.client.client"}
+{"timestamp":"2025-08-03T04:57:02.419582","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/data-pipeline-stage.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-03T04:57:02.942267","level":"warning","event":"Couldn't find any OpenLineage transport configuration; will print events to console.","logger":"openlineage.client.client"}
+{"timestamp":"2025-08-03T04:57:02.942616","level":"info","event":"OpenLineageClient will use `console` transport","logger":"openlineage.client.client"}
+{"timestamp":"2025-08-03T04:57:33.324813","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/data-pipeline-stage.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-03T04:57:33.783711","level":"warning","event":"Couldn't find any OpenLineage transport configuration; will print events to console.","logger":"openlineage.client.client"}
+{"timestamp":"2025-08-03T04:57:33.784063","level":"info","event":"OpenLineageClient will use `console` transport","logger":"openlineage.client.client"}
+{"timestamp":"2025-08-03T04:58:04.122003","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/data-pipeline-stage.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-03T04:58:04.531816","level":"warning","event":"Couldn't find any OpenLineage transport configuration; will print events to console.","logger":"openlineage.client.client"}
+{"timestamp":"2025-08-03T04:58:04.532149","level":"info","event":"OpenLineageClient will use `console` transport","logger":"openlineage.client.client"}
+{"timestamp":"2025-08-03T04:58:34.940097","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/data-pipeline-stage.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-03T04:58:35.543360","level":"warning","event":"Couldn't find any OpenLineage transport configuration; will print events to console.","logger":"openlineage.client.client"}
+{"timestamp":"2025-08-03T04:58:35.543690","level":"info","event":"OpenLineageClient will use `console` transport","logger":"openlineage.client.client"}
+{"timestamp":"2025-08-03T04:59:05.953054","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/data-pipeline-stage.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-03T04:59:06.475942","level":"warning","event":"Couldn't find any OpenLineage transport configuration; will print events to console.","logger":"openlineage.client.client"}
+{"timestamp":"2025-08-03T04:59:06.476330","level":"info","event":"OpenLineageClient will use `console` transport","logger":"openlineage.client.client"}
+{"timestamp":"2025-08-03T04:59:36.888906","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/data-pipeline-stage.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-03T04:59:37.285770","level":"warning","event":"Couldn't find any OpenLineage transport configuration; will print events to console.","logger":"openlineage.client.client"}
+{"timestamp":"2025-08-03T04:59:37.286165","level":"info","event":"OpenLineageClient will use `console` transport","logger":"openlineage.client.client"}
+{"timestamp":"2025-08-03T05:00:07.620850","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/data-pipeline-stage.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-03T05:00:08.016140","level":"warning","event":"Couldn't find any OpenLineage transport configuration; will print events to console.","logger":"openlineage.client.client"}
+{"timestamp":"2025-08-03T05:00:08.016460","level":"info","event":"OpenLineageClient will use `console` transport","logger":"openlineage.client.client"}
+{"timestamp":"2025-08-03T05:00:38.431621","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/data-pipeline-stage.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-03T05:00:38.821342","level":"warning","event":"Couldn't find any OpenLineage transport configuration; will print events to console.","logger":"openlineage.client.client"}
+{"timestamp":"2025-08-03T05:00:38.821695","level":"info","event":"OpenLineageClient will use `console` transport","logger":"openlineage.client.client"}
+{"timestamp":"2025-08-03T05:01:09.132274","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/data-pipeline-stage.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-03T05:01:09.526367","level":"warning","event":"Couldn't find any OpenLineage transport configuration; will print events to console.","logger":"openlineage.client.client"}
+{"timestamp":"2025-08-03T05:01:09.526708","level":"info","event":"OpenLineageClient will use `console` transport","logger":"openlineage.client.client"}
+{"timestamp":"2025-08-03T05:01:39.917509","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/data-pipeline-stage.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-03T05:01:40.307417","level":"warning","event":"Couldn't find any OpenLineage transport configuration; will print events to console.","logger":"openlineage.client.client"}
+{"timestamp":"2025-08-03T05:01:40.307718","level":"info","event":"OpenLineageClient will use `console` transport","logger":"openlineage.client.client"}
+{"timestamp":"2025-08-03T05:02:10.655368","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/data-pipeline-stage.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-03T05:02:11.061369","level":"warning","event":"Couldn't find any OpenLineage transport configuration; will print events to console.","logger":"openlineage.client.client"}
+{"timestamp":"2025-08-03T05:02:11.061671","level":"info","event":"OpenLineageClient will use `console` transport","logger":"openlineage.client.client"}
+{"timestamp":"2025-08-03T05:02:41.415276","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/data-pipeline-stage.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-08-03T05:02:41.894438","level":"warning","event":"Couldn't find any OpenLineage transport configuration; will print events to console.","logger":"openlineage.client.client"}
+{"timestamp":"2025-08-03T05:02:41.894860","level":"info","event":"OpenLineageClient will use `console` transport","logger":"openlineage.client.client"}

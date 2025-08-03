@@ -1,4 +1,3 @@
-# 🚀 Makefile Commands for Docker Project
 
 ---
 # 🧠 Data Lakehouse RAG Pipeline
@@ -58,6 +57,9 @@ All stages—from ingestion to embedding—are orchestrated by a single Airflow 
 ```bash
 git clone https://github.com/rjldinesh/RAG-AI-Focused-Data-Infrastructure-Pipeline.git
 ```
+
+# 🚀 Makefile Commands for Docker Project
+
 This project uses a `Makefile` to simplify Docker operations. Make sure you have Docker and Docker Compose installed.
 
 ## 📦 Available Commands
