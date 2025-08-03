@@ -61,6 +61,7 @@ All stages—from ingestion to embedding—are orchestrated by a single Airflow 
 ```bash
 git clone https://github.com/rjldinesh/RAG-AI-Focused-Data-Infrastructure-Pipeline.git
 ```
+Checkout to 'develop'
 
 # 🚀 Makefile Commands for Docker Project
 
