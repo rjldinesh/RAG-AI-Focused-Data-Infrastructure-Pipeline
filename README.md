@@ -107,6 +107,9 @@ docker-compose up --build
 - **FastAPI Docs**: [http://localhost:8005/docs](http://localhost:8005/docs)
 
 ---
+## Architecture: 
+![Architecture](./assets/architecture.png "Dinesh Rijal’s Project Logo")
+
 
 ## 🧠 DAG: `data_pipeline_stage.py`
 
@@ -169,7 +172,7 @@ Ensure your Spark and Airflow containers are on the same Docker network (if usin
 
 ## ⚙️ GitHub CI/CD Integration
 
-This project uses **GitHub Actions** to automate CI/CD tasks such as linting, testing, and deployment.
+This project uses **GitHub Actions** to automate CI/CD tasks such as linting, testing, and deployment[Sample only].
 
 ### 🧪 Typical Workflow
 
