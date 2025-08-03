@@ -6,6 +6,10 @@ This project implements an end-to-end **Data Scrape-to-RAG** (Retrieval-Augmente
 
 All stages—from ingestion to embedding—are orchestrated by a single Airflow DAG: `data_pipeline_stage.py`.
 
+
+- **Demo Video**: [Demo Video](https://drive.google.com/file/d/1NtqHc3izdPykFWjudSAzXW3Vm3Lpw8Mk/view?usp=sharing)
+
+
 ---
 
 ## 🚀 Pipeline Overview
